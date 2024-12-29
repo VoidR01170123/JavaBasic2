@@ -17,8 +17,8 @@ public class ClassStart4 {
         students[0] = student1;
         students[1] = student2;
 
-        System.out.println("이름:" + student1.name + " 나이:" + student1.age + " 성적:" + student1.score);
-        System.out.println("이름:" + student2.name + " 나이:" + student2.age + " 성적:" + student2.score);
+        System.out.println("이름:" + students[0].name + " 나이:" + students[0].age + " 성적:" + students[0].score);
+        System.out.println("이름:" + students[1].name + " 나이:" + students[.1].age + " 성적:" + students[1].score);
     }
 
 }
