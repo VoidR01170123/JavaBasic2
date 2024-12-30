@@ -21,4 +21,5 @@ public class ClassStart4 {
         System.out.println("이름:" + students[1].name + " 나이:" + students[.1].age + " 성적:" + students[1].score);
     }
 
-}
+}//Student타입의 참조값을 보관한다.
+//참조값은 그 메모리의 주소다.
