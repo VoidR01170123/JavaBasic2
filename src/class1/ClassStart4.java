@@ -18,7 +18,7 @@ public class ClassStart4 {
         students[1] = student2;
 
         System.out.println("이름:" + students[0].name + " 나이:" + students[0].age + " 성적:" + students[0].score);
-        System.out.println("이름:" + students[1].name + " 나이:" + students[.1].age + " 성적:" + students[1].score);
+        System.out.println("이름:" + students[1].name + " 나이:" + students[1].age + " 성적:" + students[1].score);
     }
 
 }//Student타입의 참조값을 보관한다.
