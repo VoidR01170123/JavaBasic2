@@ -11,3 +11,4 @@ public class ClassStart2 {
         }
     }
 }
+//배열을 사용하여, ClassStart1을 리팩토링 할 수 있지만, 학생별로 관리하기가 어렵다.

@@ -14,3 +14,4 @@ public class ClassStart1 {
         System.out.println("이름: " + student2Name + " 나이: " + student2Age + " 성적: " + student2Score);
     }
 }
+//클래스가 없으면 하나하나 선언해서 하나하나 출력해야함.
