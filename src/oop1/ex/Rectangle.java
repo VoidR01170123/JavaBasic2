@@ -1,8 +1,8 @@
 package oop1.ex;
 
 public class Rectangle {
-    int width = 5;
-    int height = 8;
+    int width;
+    int height;
 
 
     void calculateArea() {
