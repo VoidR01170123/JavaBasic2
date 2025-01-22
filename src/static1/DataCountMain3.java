@@ -11,5 +11,13 @@ public class DataCountMain3 {
 
         Data3 data3 = new Data3("C");
         System.out.println("C count=" + Data3.count);
+
+        //추가
+        //인스턴스를 통한 접근
+        Data3 data4 = new Data3("D");
+        System.out.println(data4.count); //거의 안씀. 정적 변수인데, 인스턴스 변수에 접근하는 것처럼 오해할 수 있음
+
+        //클래스를 통한 접근
+        System.out.println(Data3.count);
     }
 }
