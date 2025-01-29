@@ -1,6 +1,6 @@
 package review_복습;
 
-public class Primitive_Reference {
+
     /*
     !! 대원칙 !! 자바는 항상 변수의 값을 복사해서 대입한다.
 
@@ -22,4 +22,4 @@ public class Primitive_Reference {
    null : 참조할 값이 없다라는 뜻
    NullPointerException : 쉽게 말해서 null에 .을 찍은 것. 즉, 참조값 없이 객체를 찾아가려 할 때 발생하는 문제
      */
-}
+
