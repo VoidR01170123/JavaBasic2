@@ -1,4 +1,4 @@
-package extend1.ex3;
+package extends1.overriding;
 
 public class HydorgenCar extends Car {
 

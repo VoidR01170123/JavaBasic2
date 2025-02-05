@@ -1,4 +1,4 @@
-package extend1.ex2;
+package extends1.ex3;
 
 public class CarMain {
 
@@ -8,10 +8,18 @@ public class CarMain {
 
         electricCar.move();
         electricCar.charge();
+        electricCar.openDoor();
 
         GasCar gasCar = new GasCar();
 
         gasCar.move();
         gasCar.fillUp();
+        gasCar.openDoor();
+
+        HydorgenCar hydorgenCar = new HydorgenCar();
+
+        hydorgenCar.move();
+        hydorgenCar.fillHydrogen();
+        hydorgenCar.openDoor();
     }
 }
