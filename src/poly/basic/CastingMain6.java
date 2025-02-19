@@ -4,7 +4,7 @@ package poly.basic;
  * istanceof
  */
 
-public class CastingMain5 {
+public class CastingMain6 {
 
     public static void main(String[] args) {
         Parent parent1 = new Parent();
@@ -18,9 +18,9 @@ public class CastingMain5 {
 
     private static void call(Parent parent) {
         parent.parentMethod();
-        if (parent instanceof Child) {
+        //Child 인스턴스인 경우 childMethod() 실행
+        if (parent instanceof Child child) {
             System.out.println("Child 인스턴스가 맞음");
-            Child child = (Child) parent;
             child.childMethod();
         }   
     }
