@@ -6,7 +6,7 @@ public class PayService {
 
         boolean result;
         System.out.println("결제를 시작합니다: option=" + option + ", amount=" + amount);
-        if (option.equals("kakao")) {
+        if (option.equals("kakao")) { //문자열 비교는 ==가 아니라 .equals
             KakaoPay kakaoPay = new KakaoPay();
             result = kakaoPay.pay(amount);
         } else if (option.equals("naver")) {
