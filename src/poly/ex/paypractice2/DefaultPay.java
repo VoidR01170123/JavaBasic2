@@ -1,4 +1,4 @@
-package poly.ex.paypractice;
+package poly.ex.paypractice2;
 
 public class DefaultPay implements Pay{
     @Override
